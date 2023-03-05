@@ -24,7 +24,7 @@ atividades = [
 # Listar alunos em cada ativiade por sala
 
 for nome_atividade, atividade in atividades:
-    # sala1 que tem interseção ocm a atividade
+    # sala1 que tem interseção com a atividade
     
     # Primeira forma
     atividade_sala1 = set(sala1).intersection(atividade)
